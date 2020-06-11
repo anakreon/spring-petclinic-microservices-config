@@ -6,8 +6,8 @@ server.port: 0
 # embedded database init, supports mysql too trough the 'mysql' spring profile
 spring:
   datasource:
-    schema: classpath*:db/hsqldb/schema.sql
-    data: classpath*:db/hsqldb/data.sql
+    schema: classpath*:db/mysql/schema.sql
+    data: classpath*:db/mysql/data.sql
   sleuth:
     sampler:
       probability: 1.0
